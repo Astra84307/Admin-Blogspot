@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Admin Panel</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+    <h1>Admin Panel</h1>
+
+    <h3>Add Post</h3>
+    <input type="text" id="post-title" placeholder="Title">
+    <textarea id="post-content" placeholder="Content"></textarea>
+    <input type="file" id="post-image">
+    <button onclick="addPost()">Add Post</button>
+
+    <h3>Existing Posts</h3>
+    <div id="admin-posts"></div>
+</div>
+
+<script type="module" src="admin-script.js"></script>
+</body>
+</html>
