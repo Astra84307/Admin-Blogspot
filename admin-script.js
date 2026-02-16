@@ -1,5 +1,5 @@
 // --- CONFIG ---
-const GITHUB_TOKEN = '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';
+const GITHUB_TOKEN = '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';
 const REPO = 'astra84307/Blogspot'; // e.g., 'astra84307/blogspot'
 const FILE_PATH = 'posts.json';
 const BRANCH = 'main';
